@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="396" tests="9" failures="7" errors="0">
+   <testsuite name="Smoke" tests="9" failures="7" errors="0" time="396" timestamp="2018-05-08 10:54:56" hostname="Dikshita - RSSPL43.Remote.local" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453"/>
+         <property name="logFiles" value="C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757139297.png, C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757139574.png, C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757252782.png, C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757318044.png, C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757335988.png, C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757349464.png, C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757400837.png, C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757476068.png"/>
+         <property name="hostName" value="Dikshita - RSSPL43.Remote.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.25.135"/>
+         <property name="sessionId" value="f523114f063955986c3acbd686e74d7f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC-09" classname="Test Cases/Smoke/TC-09" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:54:56 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-09: Browser is closed
+
+2018-05-08 10:54:56 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:54:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:55:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:55:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:55:05 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:55:05 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:55:05 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:55:05 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:55:06 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:55:06 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:55:07 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:55:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:55:07 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:55:08 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:55:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:55:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:55:11 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Create_a_New_Dept/ClickOnDepartments' successfully
+
+2018-05-08 10:55:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create_a_New_Dept/ClickOnDepartments' successfully
+
+2018-05-08 10:55:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnDepartments' is clicked on
+
+2018-05-08 10:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnDepartments' is clicked on
+
+2018-05-08 10:55:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 10:55:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 10:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnCreateDept' is clicked on
+
+2018-05-08 10:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnCreateDept' is clicked on
+
+2018-05-08 10:55:14 - [TEST_STEP][PASSED] - waitForAlert: No alert found after 2 second(s).
+
+2018-05-08 10:55:16 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2018-05-08 10:55:16 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/h4_Create Department' is visible
+
+2018-05-08 10:55:16 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/h4_Create Department' is visible
+
+2018-05-08 10:55:16 - [TEST_STEP][PASSED] - setText: Text '4' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Code'
+
+2018-05-08 10:55:16 - [MESSAGE][PASSED] - Text '4' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Code'
+
+2018-05-08 10:55:16 - [TEST_STEP][PASSED] - setText: Text 'Finance' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Name'
+
+2018-05-08 10:55:16 - [MESSAGE][PASSED] - Text 'Finance' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Name'
+
+2018-05-08 10:55:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnSavePopup' is clicked on
+
+2018-05-08 10:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnSavePopup' is clicked on
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName' is focused
+
+2018-05-08 10:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName' is focused
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - Statement - Errormsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName)): Text of object 'Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName' is: ''
+
+2018-05-08 10:55:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName' is: ''
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - Statement - println(Errormsg): null
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - Statement - println("Error Message has been Displayed"): null
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:55:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-1 Creating a new Department" classname="Test Cases/Smoke/TC-1 Creating a new Department" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)"/>
+         <system-out><![CDATA[2018-05-08 10:55:17 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-1 Creating a new Department: Test Cases/Smoke/TC-1 Creating a new Department FAILED because (of) Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:55:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:55:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:55:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:55:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:55:23 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:55:23 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:55:23 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:55:24 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:55:24 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:55:24 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:55:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:55:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:55:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:55:25 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:55:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:55:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:55:28 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Create_a_New_Dept/ClickOnDepartments' successfully
+
+2018-05-08 10:55:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create_a_New_Dept/ClickOnDepartments' successfully
+
+2018-05-08 10:55:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnDepartments' is clicked on
+
+2018-05-08 10:55:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnDepartments' is clicked on
+
+2018-05-08 10:55:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 10:55:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 10:55:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnCreateDept' is clicked on
+
+2018-05-08 10:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnCreateDept' is clicked on
+
+2018-05-08 10:55:31 - [TEST_STEP][PASSED] - waitForAlert: No alert found after 2 second(s).
+
+2018-05-08 10:55:33 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2018-05-08 10:55:33 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/h4_Create Department' is visible
+
+2018-05-08 10:55:33 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/h4_Create Department' is visible
+
+2018-05-08 10:55:33 - [TEST_STEP][PASSED] - setText: Text '10' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Code'
+
+2018-05-08 10:55:33 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Code'
+
+2018-05-08 10:55:33 - [TEST_STEP][PASSED] - setText: Text 'Finance' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Name'
+
+2018-05-08 10:55:33 - [MESSAGE][PASSED] - Text 'Finance' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Name'
+
+2018-05-08 10:55:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnSavePopup' is clicked on
+
+2018-05-08 10:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnSavePopup' is clicked on
+
+2018-05-08 10:55:33 - [TEST_STEP][PASSED] - Statement - var1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Search/Search_Inspect), com.kms.katalon.core.testdata.TestDataFactory.findTestData(ImScanDataSource).getValue(1, 19)): Text '10' is set on object 'Object Repository/Search/Search_Inspect'
+
+2018-05-08 10:55:34 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/Search/Search_Inspect'
+
+2018-05-08 10:55:34 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)
+
+2018-05-08 10:55:39 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757139297.png]]
+
+2018-05-08 10:55:39 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757139574.png]]
+
+2018-05-08 10:55:39 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:55:39 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:55:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-08 10:55:17 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-1 Creating a new Department: Test Cases/Smoke/TC-1 Creating a new Department FAILED because (of) Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-123" classname="Test Cases/Smoke/TC-123" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:55:40 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-123: Browser is closed
+
+2018-05-08 10:55:40 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:55:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:55:45 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:55:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:55:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:55:46 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:55:46 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:55:46 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:55:46 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:55:46 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:55:47 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:55:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:55:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:55:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:55:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:55:50 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:55:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:55:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:55:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Import/ClickOnImport' is clicked on
+
+2018-05-08 10:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Import/ClickOnImport' is clicked on
+
+2018-05-08 10:55:53 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-05-08 10:56:08 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-05-08 10:56:08 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Import/Import_PopUP' is focused
+
+2018-05-08 10:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Import/Import_PopUP' is focused
+
+2018-05-08 10:56:08 - [TEST_STEP][PASSED] - uploadFile: File 'C:\\Users\\Dikshita\\Desktop\\TIFF_PDF\\testmerge.pdf' sent to object: 'Object Repository/Import/Browse'
+
+2018-05-08 10:56:08 - [MESSAGE][PASSED] - File 'C:\\Users\\Dikshita\\Desktop\\TIFF_PDF\\testmerge.pdf' sent to object: 'Object Repository/Import/Browse'
+
+2018-05-08 10:56:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Import/ClickOnOK(fileUpload)' is clicked on
+
+2018-05-08 10:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Import/ClickOnOK(fileUpload)' is clicked on
+
+2018-05-08 10:56:08 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:56:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:56:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-143_Login_ValidLogin" classname="Test Cases/Smoke/TC-143_Login_ValidLogin" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:09 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-143_Login_ValidLogin: Browser is closed
+
+2018-05-08 10:56:09 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:56:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:56:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:56:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:56:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:56:17 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:56:17 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:56:17 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:56:17 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:56:17 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:56:17 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:56:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:56:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN - EDoc System/div_Home' is clicked on
+
+2018-05-08 10:56:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN - EDoc System/div_Home' is clicked on
+
+2018-05-08 10:56:19 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:56:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:56:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-145_Login_InvalidLogin" classname="Test Cases/Smoke/TC-145_Login_InvalidLogin" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:20 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-145_Login_InvalidLogin: Browser is closed
+
+2018-05-08 10:56:20 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:56:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:56:26 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:56:26 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:56:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:56:27 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:56:27 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:56:27 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:56:27 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:56:27 - [TEST_STEP][PASSED] - setText: Text 'Dixita3' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:56:28 - [MESSAGE][PASSED] - Text 'Dixita3' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:56:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:56:28 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:56:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:56:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-164" classname="Test Cases/Smoke/TC-164" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:28 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-164: Browser is closed
+
+2018-05-08 10:56:28 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:56:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:56:34 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:56:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:56:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:56:35 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:56:35 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:56:36 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:56:36 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:56:36 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:56:36 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:56:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:56:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:56:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:56:39 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 10:56:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 10:56:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 10:56:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 10:56:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:56:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:56:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnEmailFormat' is clicked on
+
+2018-05-08 10:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnEmailFormat' is clicked on
+
+2018-05-08 10:56:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/AddEmailFormat' is clicked on
+
+2018-05-08 10:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddEmailFormat' is clicked on
+
+2018-05-08 10:56:44 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/EmailFormatPopup' is focused
+
+2018-05-08 10:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/EmailFormatPopup' is focused
+
+2018-05-08 10:56:44 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:56:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:56:47 - [TEST_STEP][PASSED] - setText: Text 'Finance_Documents' is set on object 'Object Repository/Settings/TypeEmail'
+
+2018-05-08 10:56:47 - [MESSAGE][PASSED] - Text 'Finance_Documents' is set on object 'Object Repository/Settings/TypeEmail'
+
+2018-05-08 10:56:47 - [TEST_STEP][PASSED] - setText: Text 'Finance' is set on object 'Object Repository/Settings/Subject'
+
+2018-05-08 10:56:47 - [MESSAGE][PASSED] - Text 'Finance' is set on object 'Object Repository/Settings/Subject'
+
+2018-05-08 10:56:47 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/Settings/FrameForbody'
+
+2018-05-08 10:56:48 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/Body' is focused
+
+2018-05-08 10:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/Body' is focused
+
+2018-05-08 10:56:48 - [TEST_STEP][PASSED] - setText: Text 'hellooo23' is set on object 'Object Repository/Settings/Body'
+
+2018-05-08 10:56:48 - [MESSAGE][PASSED] - Text 'hellooo23' is set on object 'Object Repository/Settings/Body'
+
+2018-05-08 10:56:48 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2018-05-08 10:56:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-05-08 10:56:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-05-08 10:56:48 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:56:48 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:56:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-18_Create_New_Role" classname="Test Cases/Smoke/TC-18_Create_New_Role" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:56:49 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-18_Create_New_Role: Browser is closed
+
+2018-05-08 10:56:49 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:56:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:56:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:56:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:56:55 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:56:55 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:56:55 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:56:55 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Create_New_Role/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:56:56 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Create_New_Role/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:56:56 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Create_New_Role/Page_IMSCAN/input_Password'
+
+2018-05-08 10:56:56 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Create_New_Role/Page_IMSCAN/input_Password'
+
+2018-05-08 10:56:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_New_Role/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_New_Role/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:56:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_New_Role/Page_IMSCAN - EDoc System/div_box' is clicked on
+
+2018-05-08 10:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_New_Role/Page_IMSCAN - EDoc System/div_box' is clicked on
+
+2018-05-08 10:56:58 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/span_Create Role' successfully
+
+2018-05-08 10:56:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/span_Create Role' successfully
+
+2018-05-08 10:56:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/span_Create Role' is clicked on
+
+2018-05-08 10:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/span_Create Role' is clicked on
+
+2018-05-08 10:56:58 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/h4_Add Role' is present
+
+2018-05-08 10:56:58 - [MESSAGE][PASSED] - Object 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/h4_Add Role' is present
+
+2018-05-08 10:56:58 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/div_Role Name' is focused
+
+2018-05-08 10:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/div_Role Name' is focused
+
+2018-05-08 10:56:59 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/input_Name' is focused
+
+2018-05-08 10:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/input_Name' is focused
+
+2018-05-08 10:56:59 - [TEST_STEP][PASSED] - setText: Text 'Dummy Role01' is set on object 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/input_Name'
+
+2018-05-08 10:56:59 - [MESSAGE][PASSED] - Text 'Dummy Role01' is set on object 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/input_Name'
+
+2018-05-08 10:56:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/li_Imscan User' is clicked on
+
+2018-05-08 10:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/li_Imscan User' is clicked on
+
+2018-05-08 10:56:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/span_glyphicon glyphicon-chevr' is clicked on
+
+2018-05-08 10:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/span_glyphicon glyphicon-chevr' is clicked on
+
+2018-05-08 10:56:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/button_Save' is clicked on
+
+2018-05-08 10:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/button_Save' is clicked on
+
+2018-05-08 10:57:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-08 10:57:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-08 10:57:00 - [TEST_STEP][PASSED] - setText: Text 'Dummy Role01' is set on object 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/input'
+
+2018-05-08 10:57:00 - [MESSAGE][PASSED] - Text 'Dummy Role01' is set on object 'Object Repository/Create_New_Role/Page_IMSCAN - Edocs/input'
+
+2018-05-08 10:57:00 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:57:00 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:57:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-26" classname="Test Cases/Smoke/TC-26" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value '27' of object 'Object Repository/Users/RoleSelection'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 27
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-05-08 10:57:01 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-26: Test Cases/Smoke/TC-26 FAILED because (of) Unable to select option by value '27' of object 'Object Repository/Users/RoleSelection'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 27
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-08 10:57:01 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:57:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:57:06 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:57:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:57:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:57:07 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:57:07 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:57:07 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:57:08 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:57:08 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:57:08 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:57:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:57:08 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:57:09 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:57:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:57:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:57:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/Users' is clicked on
+
+2018-05-08 10:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Users' is clicked on
+
+2018-05-08 10:57:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-08 10:57:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-08 10:57:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/CreateUser' is clicked on
+
+2018-05-08 10:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/CreateUser' is clicked on
+
+2018-05-08 10:57:18 - [TEST_STEP][PASSED] - waitForAlert: No alert found after 5 second(s).
+
+2018-05-08 10:57:23 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2018-05-08 10:57:23 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/UsersPopUp/Popup' is focused
+
+2018-05-08 10:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/UsersPopUp/Popup' is focused
+
+2018-05-08 10:57:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-08 10:57:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-08 10:57:28 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Users/Firstname' is visible
+
+2018-05-08 10:57:28 - [MESSAGE][PASSED] - Object 'Object Repository/Users/Firstname' is visible
+
+2018-05-08 10:57:28 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/Firstname' is focused
+
+2018-05-08 10:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Firstname' is focused
+
+2018-05-08 10:57:28 - [TEST_STEP][PASSED] - setText: Text 'Kinan' is set on object 'Object Repository/Users/Firstname'
+
+2018-05-08 10:57:28 - [MESSAGE][PASSED] - Text 'Kinan' is set on object 'Object Repository/Users/Firstname'
+
+2018-05-08 10:57:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:57:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:57:31 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/Lastname' is focused
+
+2018-05-08 10:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Lastname' is focused
+
+2018-05-08 10:57:31 - [TEST_STEP][PASSED] - setText: Text 'Dsouza' is set on object 'Object Repository/Users/Lastname'
+
+2018-05-08 10:57:31 - [MESSAGE][PASSED] - Text 'Dsouza' is set on object 'Object Repository/Users/Lastname'
+
+2018-05-08 10:57:31 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/Username' is focused
+
+2018-05-08 10:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Username' is focused
+
+2018-05-08 10:57:31 - [TEST_STEP][PASSED] - setText: Text 'Kinan' is set on object 'Object Repository/Users/Username'
+
+2018-05-08 10:57:32 - [MESSAGE][PASSED] - Text 'Kinan' is set on object 'Object Repository/Users/Username'
+
+2018-05-08 10:57:32 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/Password' is focused
+
+2018-05-08 10:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Password' is focused
+
+2018-05-08 10:57:32 - [TEST_STEP][PASSED] - setText: Text 'Stevenson' is set on object 'Object Repository/Users/Password'
+
+2018-05-08 10:57:32 - [MESSAGE][PASSED] - Text 'Stevenson' is set on object 'Object Repository/Users/Password'
+
+2018-05-08 10:57:32 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/emailId' is focused
+
+2018-05-08 10:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/emailId' is focused
+
+2018-05-08 10:57:32 - [TEST_STEP][PASSED] - setText: Text 'Kinan@rsspl.com' is set on object 'Object Repository/Users/emailId'
+
+2018-05-08 10:57:32 - [MESSAGE][PASSED] - Text 'Kinan@rsspl.com' is set on object 'Object Repository/Users/emailId'
+
+2018-05-08 10:57:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/RoleSelection' is clicked on
+
+2018-05-08 10:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/RoleSelection' is clicked on
+
+2018-05-08 10:57:32 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '27' of object 'Object Repository/Users/RoleSelection'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 27
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-05-08 10:57:33 - [MESSAGE][FAILED] - Unable to select option by value '27' of object 'Object Repository/Users/RoleSelection'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 27
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757252782.png]]
+
+2018-05-08 10:57:33 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:57:33 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:57:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-08 10:57:01 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-26: Test Cases/Smoke/TC-26 FAILED because (of) Unable to select option by value '27' of object 'Object Repository/Users/RoleSelection'  (Root cause: org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 27
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-356" classname="Test Cases/Smoke/TC-356" status="PASSED">
+         <system-out><![CDATA[2018-05-08 10:57:33 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-356: Browser is closed
+
+2018-05-08 10:57:33 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:57:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:57:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:57:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:57:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:57:41 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:57:41 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:57:41 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:57:41 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:57:41 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:57:41 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:57:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:57:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:57:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:57:45 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:57:45 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-05-08 10:57:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:57:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:57:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Import/ClickOnImport' is clicked on
+
+2018-05-08 10:57:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Import/ClickOnImport' is clicked on
+
+2018-05-08 10:57:48 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2018-05-08 10:58:03 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-05-08 10:58:03 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Import/Import_PopUP' is focused
+
+2018-05-08 10:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Import/Import_PopUP' is focused
+
+2018-05-08 10:58:03 - [TEST_STEP][PASSED] - uploadFile: File 'C:\\Users\\Dikshita\\Desktop\\TIFF_PDF\\testmerge.pdf' sent to object: 'Object Repository/Import/Browse'
+
+2018-05-08 10:58:03 - [MESSAGE][PASSED] - File 'C:\\Users\\Dikshita\\Desktop\\TIFF_PDF\\testmerge.pdf' sent to object: 'Object Repository/Import/Browse'
+
+2018-05-08 10:58:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Import/ClickOnOK(fileUpload)' is clicked on
+
+2018-05-08 10:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Import/ClickOnOK(fileUpload)' is clicked on
+
+2018-05-08 10:58:03 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-05-08 10:58:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-05-08 10:58:13 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [4] are selected on object 'Object Repository/Import/SelectDocType'
+
+2018-05-08 10:58:13 - [MESSAGE][PASSED] - All options with index in [4] are selected on object 'Object Repository/Import/SelectDocType'
+
+2018-05-08 10:58:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Import/completebutton' is clicked on
+
+2018-05-08 10:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Import/completebutton' is clicked on
+
+2018-05-08 10:58:13 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:58:13 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:58:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-43" classname="Test Cases/Smoke/TC-43" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by index '2' of object 'Object Repository/DocumentType/Database' (Root cause: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1]))"/>
+         <system-out><![CDATA[2018-05-08 10:58:14 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-43: Test Cases/Smoke/TC-43 FAILED because (of) Unable to select option by index '2' of object 'Object Repository/DocumentType/Database' (Root cause: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1]))
+
+2018-05-08 10:58:14 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:58:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:58:20 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:58:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:58:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:58:21 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:58:21 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:58:21 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:58:21 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:58:21 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:58:22 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:58:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:58:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 10:58:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 10:58:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/DocumentType/ClickOnDocumentType' successfully
+
+2018-05-08 10:58:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/DocumentType/ClickOnDocumentType' successfully
+
+2018-05-08 10:58:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DocumentType/ClickOnDocumentType' is clicked on
+
+2018-05-08 10:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/DocumentType/ClickOnDocumentType' is clicked on
+
+2018-05-08 10:58:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DocumentType/ClickOnCreateDocument' is clicked on
+
+2018-05-08 10:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/DocumentType/ClickOnCreateDocument' is clicked on
+
+2018-05-08 10:58:25 - [TEST_STEP][PASSED] - sendKeys: Keys 'Finance Docs' sent to object: 'Object Repository/DocumentType/Enter_DocumentName'
+
+2018-05-08 10:58:31 - [MESSAGE][PASSED] - Keys 'Finance Docs' sent to object: 'Object Repository/DocumentType/Enter_DocumentName'
+
+2018-05-08 10:58:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DocumentType/Enter-ClickOnFolderName' is clicked on
+
+2018-05-08 10:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/DocumentType/Enter-ClickOnFolderName' is clicked on
+
+2018-05-08 10:58:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DocumentType/ContinueButton' is clicked on
+
+2018-05-08 10:58:31 - [MESSAGE][PASSED] - Object: 'Object Repository/DocumentType/ContinueButton' is clicked on
+
+2018-05-08 10:58:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 10:58:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 10:58:33 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/DocumentType/AddField'
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/DocumentType/AddField'
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/DocumentType/AddindexFieldPopUp' is focused
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/DocumentType/AddindexFieldPopUp' is focused
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/DocumentType/AddindexFieldPopUp' is present
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - Object 'Object Repository/DocumentType/AddindexFieldPopUp' is present
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - sendKeys: Keys 'cost' sent to object: 'Object Repository/DocumentType/NameOFIndexField'
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - Keys 'cost' sent to object: 'Object Repository/DocumentType/NameOFIndexField'
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/DocumentType/TypeOfIndex'
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/DocumentType/TypeOfIndex'
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - sendKeys: Keys '0' sent to object: 'Object Repository/DocumentType/DecimalPlaces'
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/DocumentType/DecimalPlaces'
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - sendKeys: Keys '9' sent to object: 'Object Repository/DocumentType/Size'
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - Keys '9' sent to object: 'Object Repository/DocumentType/Size'
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [1] are selected on object 'Object Repository/DocumentType/AddTrigger'
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/DocumentType/AddTrigger'
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DocumentType/Next' is clicked on
+
+2018-05-08 10:58:34 - [MESSAGE][PASSED] - Object: 'Object Repository/DocumentType/Next' is clicked on
+
+2018-05-08 10:58:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:58:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:58:37 - [TEST_STEP][FAILED] - selectOptionByIndex: Unable to select option by index '2' of object 'Object Repository/DocumentType/Database' (Root cause: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1]))
+
+2018-05-08 10:58:38 - [MESSAGE][FAILED] - Unable to select option by index '2' of object 'Object Repository/DocumentType/Database' (Root cause: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1]))
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757318044.png]]
+
+2018-05-08 10:58:38 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:58:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:58:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-08 10:58:14 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-43: Test Cases/Smoke/TC-43 FAILED because (of) Unable to select option by index '2' of object 'Object Repository/DocumentType/Database' (Root cause: java.lang.IllegalArgumentException: Index '2' is invalid (valid indexes are: [0..1]))]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-46" classname="Test Cases/Smoke/TC-46" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 740c93004a3e85de1c0dbf86119b0624)"/>
+         <system-out><![CDATA[2018-05-08 10:58:38 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-46: Test Cases/Smoke/TC-46 FAILED because (of) Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 740c93004a3e85de1c0dbf86119b0624)
+
+2018-05-08 10:58:38 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:58:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:58:46 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:58:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:58:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:58:47 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:58:47 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:58:47 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:58:47 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:58:47 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:58:47 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:58:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:58:48 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 10:58:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 10:58:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 10:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 10:58:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-05-08 10:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-05-08 10:58:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 10:58:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 10:58:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-05-08 10:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-05-08 10:58:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/AddEmailSettings' is clicked on
+
+2018-05-08 10:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddEmailSettings' is clicked on
+
+2018-05-08 10:58:52 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/EmailSettingsPopUp' is focused
+
+2018-05-08 10:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/EmailSettingsPopUp' is focused
+
+2018-05-08 10:58:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:58:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:58:55 - [TEST_STEP][FAILED] - setText: Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 740c93004a3e85de1c0dbf86119b0624)
+
+2018-05-08 10:58:56 - [MESSAGE][FAILED] - Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 740c93004a3e85de1c0dbf86119b0624)
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757335988.png]]
+
+2018-05-08 10:58:56 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:58:56 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:58:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-08 10:58:38 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-46: Test Cases/Smoke/TC-46 FAILED because (of) Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: 740c93004a3e85de1c0dbf86119b0624)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-48" classname="Test Cases/Smoke/TC-48" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: d3fc5736cf7f67fd01b5b1aa6de8df31)"/>
+         <system-out><![CDATA[2018-05-08 10:58:56 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-48: Test Cases/Smoke/TC-48 FAILED because (of) Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: d3fc5736cf7f67fd01b5b1aa6de8df31)
+
+2018-05-08 10:58:56 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:58:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:59:01 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:59:01 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:59:02 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:59:02 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:59:02 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:59:02 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:59:02 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:59:02 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:59:03 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:59:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:59:03 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 10:59:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 10:59:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 10:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 10:59:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 10:59:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 10:59:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-05-08 10:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-05-08 10:59:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/AddEmailSettings' is clicked on
+
+2018-05-08 10:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddEmailSettings' is clicked on
+
+2018-05-08 10:59:09 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/EmailSettingsPopUp' is focused
+
+2018-05-08 10:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/EmailSettingsPopUp' is focused
+
+2018-05-08 10:59:09 - [TEST_STEP][FAILED] - setText: Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: d3fc5736cf7f67fd01b5b1aa6de8df31)
+
+2018-05-08 10:59:09 - [MESSAGE][FAILED] - Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: d3fc5736cf7f67fd01b5b1aa6de8df31)
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757349464.png]]
+
+2018-05-08 10:59:09 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 10:59:09 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 10:59:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-08 10:58:56 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-48: Test Cases/Smoke/TC-48 FAILED because (of) Unable to set text 'Kinan@rsspl.com' of object 'Object Repository/Settings/Email' (Root cause: org.openqa.selenium.InvalidElementStateException: invalid element state: Element is not currently interactable and may not be manipulated
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: d3fc5736cf7f67fd01b5b1aa6de8df31)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-536" classname="Test Cases/Smoke/TC-536" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Indexing/Complete' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: cbe68cc7490b35cc713734a7054eaacc)"/>
+         <system-out><![CDATA[2018-05-08 10:59:10 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-536: Test Cases/Smoke/TC-536 FAILED because (of) Unable to click on object 'Object Repository/Indexing/Complete' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: cbe68cc7490b35cc713734a7054eaacc)
+
+2018-05-08 10:59:10 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:59:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:59:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 10:59:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 10:59:23 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 10:59:23 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 10:59:23 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 10:59:23 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:59:23 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 10:59:23 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:59:23 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 10:59:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 10:59:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Home/VerifyHomePage' is present
+
+2018-05-08 10:59:26 - [MESSAGE][PASSED] - Object 'Object Repository/Home/VerifyHomePage' is present
+
+2018-05-08 10:59:26 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Indexing/Click_On_Indexing' successfully
+
+2018-05-08 10:59:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Indexing/Click_On_Indexing' successfully
+
+2018-05-08 10:59:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Indexing/Click_On_Indexing' is clicked on
+
+2018-05-08 10:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexing/Click_On_Indexing' is clicked on
+
+2018-05-08 10:59:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Indexing/BatchNO' is clicked on
+
+2018-05-08 10:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexing/BatchNO' is clicked on
+
+2018-05-08 10:59:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Indexing/BatchNO' is clicked on
+
+2018-05-08 10:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexing/BatchNO' is clicked on
+
+2018-05-08 10:59:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 10:59:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 10:59:30 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Indexing/Last_Indexed_Batch' is focused
+
+2018-05-08 10:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexing/Last_Indexed_Batch' is focused
+
+2018-05-08 10:59:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Indexing/Edit_1st_Batch' is clicked on
+
+2018-05-08 10:59:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexing/Edit_1st_Batch' is clicked on
+
+2018-05-08 10:59:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 10:59:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 10:59:33 - [TEST_STEP][PASSED] - Statement - For ([i = 0, i <= 1, (i++)]): Delayed 5 second(s)
+
+2018-05-08 10:59:33 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Indexing/SaveAndCont), 2) == true): Delayed 5 second(s)
+
+2018-05-08 10:59:48 - [MESSAGE][PASSED] - Object 'Object Repository/Indexing/SaveAndCont' is present
+
+2018-05-08 10:59:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Indexing/SaveAndCont' is clicked on
+
+2018-05-08 10:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexing/SaveAndCont' is clicked on
+
+2018-05-08 10:59:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-08 10:59:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-08 10:59:53 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Indexing/SaveAndCont), 2) == true): Delayed 5 second(s)
+
+2018-05-08 10:59:53 - [MESSAGE][PASSED] - Object 'Object Repository/Indexing/SaveAndCont' is present
+
+2018-05-08 10:59:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Indexing/SaveAndCont' is clicked on
+
+2018-05-08 10:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexing/SaveAndCont' is clicked on
+
+2018-05-08 10:59:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-08 10:59:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-08 10:59:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 11:00:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 11:00:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Indexing/Complete' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: cbe68cc7490b35cc713734a7054eaacc)
+
+2018-05-08 11:00:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Indexing/Complete' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: cbe68cc7490b35cc713734a7054eaacc)
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757400837.png]]
+
+2018-05-08 11:00:01 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 11:00:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 11:00:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-08 10:59:10 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-536: Test Cases/Smoke/TC-536 FAILED because (of) Unable to click on object 'Object Repository/Indexing/Complete' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not visible
+  (Session info: chrome=66.0.3359.139)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'RSSPL43', ip: '192.168.25.135', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\Dikshita\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
+Session ID: cbe68cc7490b35cc713734a7054eaacc)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-62" classname="Test Cases/Smoke/TC-62" status="PASSED">
+         <system-out><![CDATA[2018-05-08 11:00:01 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-62: Browser is closed
+
+2018-05-08 11:00:01 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 11:00:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 11:00:16 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 11:00:16 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 11:00:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 11:00:24 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 11:00:24 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 11:00:24 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 11:00:25 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 11:00:25 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 11:00:25 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 11:00:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 11:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 11:00:25 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 11:00:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 11:00:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 11:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 11:00:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnDatabaseConnections' is clicked on
+
+2018-05-08 11:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnDatabaseConnections' is clicked on
+
+2018-05-08 11:00:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-08 11:00:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-08 11:00:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/CreateDBconnections' is clicked on
+
+2018-05-08 11:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/CreateDBconnections' is clicked on
+
+2018-05-08 11:00:29 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/DBconnectionPopUP' is focused
+
+2018-05-08 11:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/DBconnectionPopUP' is focused
+
+2018-05-08 11:00:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-08 11:00:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-08 11:00:35 - [TEST_STEP][PASSED] - setText: Text 'Test1' is set on object 'Object Repository/Settings/ServerName'
+
+2018-05-08 11:00:35 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Settings/ServerName'
+
+2018-05-08 11:00:35 - [TEST_STEP][PASSED] - setText: Text 'Test1' is set on object 'Object Repository/Settings/DatabaseName'
+
+2018-05-08 11:00:35 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Settings/DatabaseName'
+
+2018-05-08 11:00:35 - [TEST_STEP][PASSED] - setText: Text 'Test1' is set on object 'Object Repository/Settings/ConnectionName'
+
+2018-05-08 11:00:35 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Settings/ConnectionName'
+
+2018-05-08 11:00:35 - [TEST_STEP][PASSED] - setText: Text 'Test1' is set on object 'Object Repository/Settings/UserName'
+
+2018-05-08 11:00:35 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Settings/UserName'
+
+2018-05-08 11:00:35 - [TEST_STEP][PASSED] - setText: Text 'Test1' is set on object 'Object Repository/Settings/PasswordDB'
+
+2018-05-08 11:00:35 - [MESSAGE][PASSED] - Text 'Test1' is set on object 'Object Repository/Settings/PasswordDB'
+
+2018-05-08 11:00:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-05-08 11:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-05-08 11:00:35 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 11:00:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 11:00:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-68" classname="Test Cases/Smoke/TC-68" status="FAILED">
+         <failure type="FAILED" message="Unable to focus on object 'Object Repository/Settings/RecentDBconnected' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Settings/RecentDBconnected' located by 'By.xpath: //td[text()='Automation']' not found)"/>
+         <system-out><![CDATA[2018-05-08 11:00:36 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-68: Test Cases/Smoke/TC-68 FAILED because (of) Unable to focus on object 'Object Repository/Settings/RecentDBconnected' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Settings/RecentDBconnected' located by 'By.xpath: //td[text()='Automation']' not found)
+
+2018-05-08 11:00:36 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 11:00:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 11:00:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 11:00:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 11:00:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 11:00:41 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 11:00:41 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 11:00:41 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 11:00:42 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 11:00:42 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 11:00:42 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 11:00:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 11:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 11:00:42 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 11:00:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 11:00:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 11:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 11:00:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnDatabaseConnections' is clicked on
+
+2018-05-08 11:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnDatabaseConnections' is clicked on
+
+2018-05-08 11:00:44 - [TEST_STEP][FAILED] - focus: Unable to focus on object 'Object Repository/Settings/RecentDBconnected' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Settings/RecentDBconnected' located by 'By.xpath: //td[text()='Automation']' not found)
+
+2018-05-08 11:01:16 - [MESSAGE][FAILED] - Unable to focus on object 'Object Repository/Settings/RecentDBconnected' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Settings/RecentDBconnected' located by 'By.xpath: //td[text()='Automation']' not found)
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Smoke\\20180508_105453\\1525757476068.png]]
+
+2018-05-08 11:01:16 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 11:01:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 11:01:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[2018-05-08 11:00:36 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-68: Test Cases/Smoke/TC-68 FAILED because (of) Unable to focus on object 'Object Repository/Settings/RecentDBconnected' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Settings/RecentDBconnected' located by 'By.xpath: //td[text()='Automation']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-86" classname="Test Cases/Smoke/TC-86" status="PASSED">
+         <system-out><![CDATA[2018-05-08 11:01:17 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-86: Browser is closed
+
+2018-05-08 11:01:17 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 11:01:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 11:01:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://35.176.110.57/CSSIMSCANUI/'
+
+2018-05-08 11:01:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-08 11:01:24 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-08 11:01:24 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-05-08 11:01:24 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-05-08 11:01:24 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 11:01:24 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-05-08 11:01:24 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 11:01:24 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-05-08 11:01:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 11:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-05-08 11:01:24 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 11:01:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Settings/ClickOnSettings' successfully
+
+2018-05-08 11:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 11:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-05-08 11:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSMTPsettings' is clicked on
+
+2018-05-08 11:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSMTPsettings' is clicked on
+
+2018-05-08 11:01:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/AddSMTPsettings' is clicked on
+
+2018-05-08 11:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddSMTPsettings' is clicked on
+
+2018-05-08 11:01:27 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/AddSMTPPopup' is focused
+
+2018-05-08 11:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddSMTPPopup' is focused
+
+2018-05-08 11:01:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-05-08 11:01:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-05-08 11:01:30 - [TEST_STEP][PASSED] - setText: Text '8' is set on object 'Object Repository/Settings/IncomingServerName'
+
+2018-05-08 11:01:30 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Settings/IncomingServerName'
+
+2018-05-08 11:01:30 - [TEST_STEP][PASSED] - setText: Text '8' is set on object 'Object Repository/Settings/OutgoingServerName'
+
+2018-05-08 11:01:31 - [MESSAGE][PASSED] - Text '8' is set on object 'Object Repository/Settings/OutgoingServerName'
+
+2018-05-08 11:01:31 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Settings/IncomingIncrytionMethod'
+
+2018-05-08 11:01:31 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Settings/IncomingIncrytionMethod'
+
+2018-05-08 11:01:31 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Settings/OutgoingIncryptionMethod'
+
+2018-05-08 11:01:31 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Settings/OutgoingIncryptionMethod'
+
+2018-05-08 11:01:31 - [TEST_STEP][PASSED] - setText: Text 'dummy01' is set on object 'Object Repository/Settings/UserName'
+
+2018-05-08 11:01:31 - [MESSAGE][PASSED] - Text 'dummy01' is set on object 'Object Repository/Settings/UserName'
+
+2018-05-08 11:01:31 - [TEST_STEP][PASSED] - setText: Text 'dummy01' is set on object 'Object Repository/Settings/Password'
+
+2018-05-08 11:01:31 - [MESSAGE][PASSED] - Text 'dummy01' is set on object 'Object Repository/Settings/Password'
+
+2018-05-08 11:01:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-05-08 11:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-05-08 11:01:31 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Browser is closed
+
+2018-05-08 11:01:31 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 11:01:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 10:54:56 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Smoke/TC-1 Creating a new Department FAILED because (of) Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-08 10:54:56 - [TEST_SUITE][FAILED] - Smoke: Test Cases/Smoke/TC-1 Creating a new Department FAILED because (of) Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

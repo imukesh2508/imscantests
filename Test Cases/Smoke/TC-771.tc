@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>authorised user is able to download a document assigned to him in the workflow</description>
+   <name>TC-771</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>22593d0d-5dbd-4976-b5af-817731afc3db</testCaseGuid>
+</TestCaseEntity>

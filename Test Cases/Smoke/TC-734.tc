@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>User is able to send the current document as email attachment</description>
+   <name>TC-734</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a425f5e9-4c0e-4662-b337-3d42e50174ae</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user is able to log into the application when invalid username is passed (Username not existing in the system)</description>
+   <name>TC-145_Login_InvalidLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1329d716-ceec-40db-8604-654fb237d481</testCaseGuid>
+</TestCaseEntity>

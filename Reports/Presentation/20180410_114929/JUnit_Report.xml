@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Presentation" time="146" tests="7" failures="1" errors="0">
+   <testsuite name="Presentation" tests="7" failures="1" errors="0" time="146" timestamp="2018-04-10 11:49:32" hostname="Dikshita - RSSPL43.Remote.local" id="Test Suites/Presentation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Presentation\\20180410_114929"/>
+         <property name="logFiles" value="C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Presentation\\20180410_114929\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Presentation\\20180410_114929\\1523341213054.png, C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Presentation\\20180410_114929\\1523341213381.png"/>
+         <property name="hostName" value="Dikshita - RSSPL43.Remote.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 65.0.3325.181"/>
+         <property name="hostAddress" value="192.168.25.135"/>
+         <property name="sessionId" value="4d4265ca4ad24b30e0476d9f20c8829d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Smoke/TC-09" classname="Test Cases/Smoke/TC-09" status="PASSED">
+         <system-out><![CDATA[2018-04-10 11:49:32 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-09: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.
+
+2018-04-10 11:49:32 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:49:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:49:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:49:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-10 11:49:42 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-10 11:49:42 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-04-10 11:49:42 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:49:42 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:49:42 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:49:42 - [TEST_STEP][PASSED] - setText: Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:49:42 - [MESSAGE][PASSED] - Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:49:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:49:42 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-04-10 11:49:43 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-04-10 11:49:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-10 11:49:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-10 11:49:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnDepartments' is clicked on
+
+2018-04-10 11:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnDepartments' is clicked on
+
+2018-04-10 11:49:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-10 11:49:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-10 11:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnCreateDept' is clicked on
+
+2018-04-10 11:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnCreateDept' is clicked on
+
+2018-04-10 11:49:48 - [TEST_STEP][PASSED] - waitForAlert: No alert found after 2 second(s).
+
+2018-04-10 11:49:51 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/h4_Create Department' is visible
+
+2018-04-10 11:49:51 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/h4_Create Department' is visible
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - setText: Text '75' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Code'
+
+2018-04-10 11:49:51 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Code'
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - setText: Text '752' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Name'
+
+2018-04-10 11:49:51 - [MESSAGE][PASSED] - Text '752' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Name'
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnSavePopup' is clicked on
+
+2018-04-10 11:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnSavePopup' is clicked on
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName' is focused
+
+2018-04-10 11:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName' is focused
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - Statement - Errormsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName)): Text of object 'Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName' is: ''
+
+2018-04-10 11:49:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Create_a_New_Dept/AlreadyExistingDeptCode-DeptName' is: ''
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - Statement - println(Errormsg): null
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - Statement - println("Error Message has been Displayed"): null
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-1 Creating a new Department" classname="Test Cases/Smoke/TC-1 Creating a new Department" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)"/>
+         <system-out><![CDATA[2018-04-10 11:49:51 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-1 Creating a new Department: Test Cases/Smoke/TC-1 Creating a new Department FAILED because (of) Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:49:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:49:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-10 11:49:57 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:49:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-10 11:49:58 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-10 11:49:58 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-04-10 11:49:58 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:49:58 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:49:58 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:49:58 - [TEST_STEP][PASSED] - setText: Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:49:59 - [MESSAGE][PASSED] - Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:49:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:49:59 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-04-10 11:49:59 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-04-10 11:49:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-10 11:50:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-10 11:50:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnDepartments' is clicked on
+
+2018-04-10 11:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnDepartments' is clicked on
+
+2018-04-10 11:50:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-10 11:50:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-10 11:50:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnCreateDept' is clicked on
+
+2018-04-10 11:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnCreateDept' is clicked on
+
+2018-04-10 11:50:05 - [TEST_STEP][PASSED] - waitForAlert: No alert found after 2 second(s).
+
+2018-04-10 11:50:07 - [MESSAGE][WARNING] - No alert found after 2 second(s).
+
+2018-04-10 11:50:07 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/h4_Create Department' is visible
+
+2018-04-10 11:50:07 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/h4_Create Department' is visible
+
+2018-04-10 11:50:07 - [TEST_STEP][PASSED] - setText: Text '558' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Code'
+
+2018-04-10 11:50:07 - [MESSAGE][PASSED] - Text '558' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Code'
+
+2018-04-10 11:50:07 - [TEST_STEP][PASSED] - setText: Text 'Nial12' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Name'
+
+2018-04-10 11:50:07 - [MESSAGE][PASSED] - Text 'Nial12' is set on object 'Object Repository/Create_a_New_Dept/CreateDeptPopup/PopUpforDept/input_Name'
+
+2018-04-10 11:50:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create_a_New_Dept/ClickOnSavePopup' is clicked on
+
+2018-04-10 11:50:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Create_a_New_Dept/ClickOnSavePopup' is clicked on
+
+2018-04-10 11:50:07 - [TEST_STEP][PASSED] - Statement - var1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Search/Search_Inspect), "Nial12"): Text 'Nial12' is set on object 'Object Repository/Search/Search_Inspect'
+
+2018-04-10 11:50:07 - [MESSAGE][PASSED] - Text 'Nial12' is set on object 'Object Repository/Search/Search_Inspect'
+
+2018-04-10 11:50:07 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)
+
+2018-04-10 11:50:13 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Presentation\\20180410_114929\\1523341213054.png]]
+
+2018-04-10 11:50:13 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)
+[[ATTACHMENT|C:\\Users\\Dikshita\\git\\imscanredev\\Reports\\Presentation\\20180410_114929\\1523341213381.png]]
+
+2018-04-10 11:50:13 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.]]></system-out>
+         <system-err><![CDATA[2018-04-10 11:49:51 - [TEST_CASE][FAILED] - Test Cases/Smoke/TC-1 Creating a new Department: Test Cases/Smoke/TC-1 Creating a new Department FAILED because (of) Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-143_Login_ValidLogin" classname="Test Cases/Smoke/TC-143_Login_ValidLogin" status="PASSED">
+         <system-out><![CDATA[2018-04-10 11:50:13 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-143_Login_ValidLogin: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.
+
+2018-04-10 11:50:13 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:50:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:50:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-10 11:50:18 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:50:18 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-10 11:50:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-10 11:50:19 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-04-10 11:50:19 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:50:19 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:50:20 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:50:20 - [TEST_STEP][PASSED] - setText: Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:50:20 - [MESSAGE][PASSED] - Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:50:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:50:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN - EDoc System/div_Home' is clicked on
+
+2018-04-10 11:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN - EDoc System/div_Home' is clicked on
+
+2018-04-10 11:50:20 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-145_Login_InvalidLogin" classname="Test Cases/Smoke/TC-145_Login_InvalidLogin" status="PASSED">
+         <system-out><![CDATA[2018-04-10 11:50:20 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-145_Login_InvalidLogin: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.
+
+2018-04-10 11:50:20 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:50:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:50:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-10 11:50:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:50:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-10 11:50:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-10 11:50:26 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-04-10 11:50:26 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:50:26 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:50:27 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:50:27 - [TEST_STEP][PASSED] - setText: Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:50:27 - [MESSAGE][PASSED] - Text 'Dixita123' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:50:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:50:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:50:27 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-26" classname="Test Cases/Smoke/TC-26" status="PASSED">
+         <system-out><![CDATA[2018-04-10 11:50:27 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-26: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.
+
+2018-04-10 11:50:27 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:50:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:50:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-10 11:50:31 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:50:31 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-10 11:50:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-10 11:50:32 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-04-10 11:50:32 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:50:33 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:50:33 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:50:33 - [TEST_STEP][PASSED] - setText: Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:50:33 - [MESSAGE][PASSED] - Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:50:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:50:38 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-04-10 11:50:39 - [MESSAGE][PASSED] - Object 'Object Repository/Create_a_New_Dept/VerfiyHomePageDisplayed' is present
+
+2018-04-10 11:50:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-10 11:50:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-10 11:50:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/Users' is clicked on
+
+2018-04-10 11:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Users' is clicked on
+
+2018-04-10 11:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/CreateUser' is clicked on
+
+2018-04-10 11:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/CreateUser' is clicked on
+
+2018-04-10 11:50:44 - [TEST_STEP][PASSED] - waitForAlert: No alert found after 5 second(s).
+
+2018-04-10 11:50:49 - [MESSAGE][WARNING] - No alert found after 5 second(s).
+
+2018-04-10 11:50:49 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/UsersPopUp/Popup' is focused
+
+2018-04-10 11:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/UsersPopUp/Popup' is focused
+
+2018-04-10 11:50:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-10 11:50:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-10 11:50:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Users/Firstname' is visible
+
+2018-04-10 11:50:54 - [MESSAGE][PASSED] - Object 'Object Repository/Users/Firstname' is visible
+
+2018-04-10 11:50:54 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/Firstname' is focused
+
+2018-04-10 11:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Firstname' is focused
+
+2018-04-10 11:50:54 - [TEST_STEP][PASSED] - setText: Text 'Steven' is set on object 'Object Repository/Users/Firstname'
+
+2018-04-10 11:50:54 - [MESSAGE][PASSED] - Text 'Steven' is set on object 'Object Repository/Users/Firstname'
+
+2018-04-10 11:50:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-10 11:50:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-10 11:50:57 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/Lastname' is focused
+
+2018-04-10 11:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Lastname' is focused
+
+2018-04-10 11:50:57 - [TEST_STEP][PASSED] - setText: Text 'Steven' is set on object 'Object Repository/Users/Lastname'
+
+2018-04-10 11:50:58 - [MESSAGE][PASSED] - Text 'Steven' is set on object 'Object Repository/Users/Lastname'
+
+2018-04-10 11:50:58 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/Username' is focused
+
+2018-04-10 11:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Username' is focused
+
+2018-04-10 11:50:58 - [TEST_STEP][PASSED] - setText: Text 'Steven' is set on object 'Object Repository/Users/Username'
+
+2018-04-10 11:50:58 - [MESSAGE][PASSED] - Text 'Steven' is set on object 'Object Repository/Users/Username'
+
+2018-04-10 11:50:58 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/Password' is focused
+
+2018-04-10 11:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/Password' is focused
+
+2018-04-10 11:50:58 - [TEST_STEP][PASSED] - setText: Text 'Steve' is set on object 'Object Repository/Users/Password'
+
+2018-04-10 11:50:58 - [MESSAGE][PASSED] - Text 'Steve' is set on object 'Object Repository/Users/Password'
+
+2018-04-10 11:50:58 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Users/emailId' is focused
+
+2018-04-10 11:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/emailId' is focused
+
+2018-04-10 11:50:58 - [TEST_STEP][PASSED] - setText: Text 'Steven@rsspl.com' is set on object 'Object Repository/Users/emailId'
+
+2018-04-10 11:50:58 - [MESSAGE][PASSED] - Text 'Steven@rsspl.com' is set on object 'Object Repository/Users/emailId'
+
+2018-04-10 11:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/RoleSelection' is clicked on
+
+2018-04-10 11:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/RoleSelection' is clicked on
+
+2018-04-10 11:50:58 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '27' are selected in object 'Object Repository/Users/RoleSelection' 
+
+2018-04-10 11:50:59 - [MESSAGE][PASSED] - All options with value '27' are selected in object 'Object Repository/Users/RoleSelection' 
+
+2018-04-10 11:50:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/SelectAvailableDoctypes' is clicked on
+
+2018-04-10 11:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/SelectAvailableDoctypes' is clicked on
+
+2018-04-10 11:50:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/ClickOnRightbutton' is clicked on
+
+2018-04-10 11:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/ClickOnRightbutton' is clicked on
+
+2018-04-10 11:50:59 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Users/SelectAvailableDept' successfully
+
+2018-04-10 11:50:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Users/SelectAvailableDept' successfully
+
+2018-04-10 11:50:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/SelectAvailableDept' is clicked on
+
+2018-04-10 11:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/SelectAvailableDept' is clicked on
+
+2018-04-10 11:50:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-10 11:51:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-10 11:51:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/arrow/span_glyphicon glyphicon-chevr' is clicked on
+
+2018-04-10 11:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/arrow/span_glyphicon glyphicon-chevr' is clicked on
+
+2018-04-10 11:51:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Users/ClickonSaveOfPopup' is clicked on
+
+2018-04-10 11:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Users/ClickonSaveOfPopup' is clicked on
+
+2018-04-10 11:51:01 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-46" classname="Test Cases/Smoke/TC-46" status="PASSED">
+         <system-out><![CDATA[2018-04-10 11:51:01 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-46: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.
+
+2018-04-10 11:51:01 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:51:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:51:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-10 11:51:07 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:51:07 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-10 11:51:08 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-10 11:51:08 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-04-10 11:51:08 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:51:08 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:51:09 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:51:09 - [TEST_STEP][PASSED] - setText: Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:51:09 - [MESSAGE][PASSED] - Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:51:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:51:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-04-10 11:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-04-10 11:51:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-04-10 11:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-04-10 11:51:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-10 11:51:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-10 11:51:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-04-10 11:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnEmailSettings' is clicked on
+
+2018-04-10 11:51:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/AddEmailSettings' is clicked on
+
+2018-04-10 11:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddEmailSettings' is clicked on
+
+2018-04-10 11:51:16 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/EmailSettingsPopUp' is focused
+
+2018-04-10 11:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/EmailSettingsPopUp' is focused
+
+2018-04-10 11:51:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-10 11:51:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-10 11:51:19 - [TEST_STEP][PASSED] - setText: Text 'Steven@gmail.com' is set on object 'Object Repository/Settings/Email'
+
+2018-04-10 11:51:19 - [MESSAGE][PASSED] - Text 'Steven@gmail.com' is set on object 'Object Repository/Settings/Email'
+
+2018-04-10 11:51:19 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/Settings/Password'
+
+2018-04-10 11:51:20 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/Settings/Password'
+
+2018-04-10 11:51:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-04-10 11:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-04-10 11:51:20 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-86" classname="Test Cases/Smoke/TC-86" status="PASSED">
+         <system-out><![CDATA[2018-04-10 11:51:20 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-86: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.
+
+2018-04-10 11:51:20 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:51:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:51:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-10 11:51:25 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:51:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-10 11:51:26 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-10 11:51:26 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-04-10 11:51:26 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:51:26 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:51:26 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:51:26 - [TEST_STEP][PASSED] - setText: Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:51:27 - [MESSAGE][PASSED] - Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:51:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:51:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-04-10 11:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-04-10 11:51:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSMTPsettings' is clicked on
+
+2018-04-10 11:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSMTPsettings' is clicked on
+
+2018-04-10 11:51:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/AddSMTPsettings' is clicked on
+
+2018-04-10 11:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddSMTPsettings' is clicked on
+
+2018-04-10 11:51:31 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/AddSMTPPopup' is focused
+
+2018-04-10 11:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddSMTPPopup' is focused
+
+2018-04-10 11:51:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-10 11:51:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-10 11:51:34 - [TEST_STEP][PASSED] - setText: Text '18' is set on object 'Object Repository/Settings/IncomingServerName'
+
+2018-04-10 11:51:34 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Settings/IncomingServerName'
+
+2018-04-10 11:51:34 - [TEST_STEP][PASSED] - setText: Text '18' is set on object 'Object Repository/Settings/OutgoingServerName'
+
+2018-04-10 11:51:34 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Settings/OutgoingServerName'
+
+2018-04-10 11:51:34 - [TEST_STEP][PASSED] - setText: Text '18' is set on object 'Object Repository/Settings/IncomingIncrytionMethod'
+
+2018-04-10 11:51:34 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Settings/IncomingIncrytionMethod'
+
+2018-04-10 11:51:34 - [TEST_STEP][PASSED] - setText: Text '18' is set on object 'Object Repository/Settings/OutgoingIncryptionMethod'
+
+2018-04-10 11:51:34 - [MESSAGE][PASSED] - Text '18' is set on object 'Object Repository/Settings/OutgoingIncryptionMethod'
+
+2018-04-10 11:51:34 - [TEST_STEP][PASSED] - setText: Text 'DummyName18' is set on object 'Object Repository/Settings/UserName'
+
+2018-04-10 11:51:34 - [MESSAGE][PASSED] - Text 'DummyName18' is set on object 'Object Repository/Settings/UserName'
+
+2018-04-10 11:51:34 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Settings/Password'
+
+2018-04-10 11:51:35 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Settings/Password'
+
+2018-04-10 11:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-04-10 11:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-04-10 11:51:35 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smoke/TC-91" classname="Test Cases/Smoke/TC-91" status="PASSED">
+         <system-out><![CDATA[2018-04-10 11:51:35 - [TEST_CASE][PASSED] - Test Cases/Smoke/TC-91: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.
+
+2018-04-10 11:51:35 - [TEST_STEP][PASSED] - Start listener action : BeforeTestCaseOpenBrowser: Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:51:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:51:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-10 11:51:40 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.30.101/CSSIMSCANUI/Login/Index'
+
+2018-04-10 11:51:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-04-10 11:51:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-04-10 11:51:41 - [TEST_STEP][PASSED] - Statement - TestID = testCaseContext.getTestCaseId(): null
+
+2018-04-10 11:51:41 - [TEST_STEP][PASSED] - Statement - println(TestID): Invoke 'com.kms.katalon.core.annotation.BeforeTestCase' method: 'ImScan.BeforeTestCaseOpenBrowser(...)' completed.
+
+2018-04-10 11:51:41 - [TEST_STEP][PASSED] - setText: Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:51:41 - [MESSAGE][PASSED] - Text 'Dixita' is set on object 'Object Repository/Login/Page_IMSCAN/input_UserName'
+
+2018-04-10 11:51:41 - [TEST_STEP][PASSED] - setText: Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:51:41 - [MESSAGE][PASSED] - Text 'Dixita456' is set on object 'Object Repository/Login/Page_IMSCAN/input_Password'
+
+2018-04-10 11:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_IMSCAN/button_Login' is clicked on
+
+2018-04-10 11:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-04-10 11:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSettings' is clicked on
+
+2018-04-10 11:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/ClickOnSMTPsettings' is clicked on
+
+2018-04-10 11:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/ClickOnSMTPsettings' is clicked on
+
+2018-04-10 11:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/AddSMTPsettings' is clicked on
+
+2018-04-10 11:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddSMTPsettings' is clicked on
+
+2018-04-10 11:51:42 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/AddSMTPPopup' is focused
+
+2018-04-10 11:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddSMTPPopup' is focused
+
+2018-04-10 11:51:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-10 11:51:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-10 11:51:45 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/Settings/IncomingServerName'
+
+2018-04-10 11:51:46 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/Settings/IncomingServerName'
+
+2018-04-10 11:51:46 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/Settings/OutgoingServerName'
+
+2018-04-10 11:51:46 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/Settings/OutgoingServerName'
+
+2018-04-10 11:51:46 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/Settings/IncomingIncrytionMethod'
+
+2018-04-10 11:51:46 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/Settings/IncomingIncrytionMethod'
+
+2018-04-10 11:51:46 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/Settings/OutgoingIncryptionMethod'
+
+2018-04-10 11:51:46 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/Settings/OutgoingIncryptionMethod'
+
+2018-04-10 11:51:46 - [TEST_STEP][PASSED] - setText: Text 'DummyName24' is set on object 'Object Repository/Settings/UserName'
+
+2018-04-10 11:51:46 - [MESSAGE][PASSED] - Text 'DummyName24' is set on object 'Object Repository/Settings/UserName'
+
+2018-04-10 11:51:46 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Settings/Password'
+
+2018-04-10 11:51:46 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Settings/Password'
+
+2018-04-10 11:51:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-04-10 11:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-04-10 11:51:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-04-10 11:51:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-04-10 11:51:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/AddSMTPsettings' is clicked on
+
+2018-04-10 11:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddSMTPsettings' is clicked on
+
+2018-04-10 11:51:52 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/AddSMTPPopup' is focused
+
+2018-04-10 11:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/AddSMTPPopup' is focused
+
+2018-04-10 11:51:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-04-10 11:51:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-04-10 11:51:55 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/Settings/IncomingServerName'
+
+2018-04-10 11:51:55 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/Settings/IncomingServerName'
+
+2018-04-10 11:51:55 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/Settings/OutgoingServerName'
+
+2018-04-10 11:51:55 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/Settings/OutgoingServerName'
+
+2018-04-10 11:51:55 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/Settings/IncomingIncrytionMethod'
+
+2018-04-10 11:51:55 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/Settings/IncomingIncrytionMethod'
+
+2018-04-10 11:51:55 - [TEST_STEP][PASSED] - setText: Text '24' is set on object 'Object Repository/Settings/OutgoingIncryptionMethod'
+
+2018-04-10 11:51:55 - [MESSAGE][PASSED] - Text '24' is set on object 'Object Repository/Settings/OutgoingIncryptionMethod'
+
+2018-04-10 11:51:55 - [TEST_STEP][PASSED] - setText: Text 'DummyName24' is set on object 'Object Repository/Settings/UserName'
+
+2018-04-10 11:51:55 - [MESSAGE][PASSED] - Text 'DummyName24' is set on object 'Object Repository/Settings/UserName'
+
+2018-04-10 11:51:55 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Settings/Password'
+
+2018-04-10 11:51:55 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Settings/Password'
+
+2018-04-10 11:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-04-10 11:51:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/SaveButton' is clicked on
+
+2018-04-10 11:51:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-04-10 11:51:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-04-10 11:51:57 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/Settings/DuplicateSMTPError' is focused
+
+2018-04-10 11:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Settings/DuplicateSMTPError' is focused
+
+2018-04-10 11:51:57 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-04-10 11:51:57 - [TEST_STEP][PASSED] - Statement - ErrMsg = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Settings/DuplicateSMTPError)): Text of object 'Object Repository/Settings/DuplicateSMTPError' is: 'This SMTP settings already exists.'
+
+2018-04-10 11:51:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Settings/DuplicateSMTPError' is: 'This SMTP settings already exists.'
+
+2018-04-10 11:51:57 - [TEST_STEP][PASSED] - Statement - println(ErrMsg): null
+
+2018-04-10 11:51:57 - [TEST_STEP][PASSED] - Statement - println("Error Message has been displayed"): null
+
+2018-04-10 11:51:57 - [TEST_STEP][PASSED] - Start listener action : AfterTestCaseCloseBrowser: Invoke 'com.kms.katalon.core.annotation.AfterTestCase' method: 'ImScan.AfterTestCaseCloseBrowser(...)' completed.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-10 11:49:32 - [TEST_SUITE][FAILED] - Presentation: Test Cases/Smoke/TC-1 Creating a new Department FAILED because (of) Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-04-10 11:49:32 - [TEST_SUITE][FAILED] - Presentation: Test Cases/Smoke/TC-1 Creating a new Department FAILED because (of) Unable to verify object 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create_a_New_Dept/verifyDisplayedOrNot/td_Law1' located by 'By.xpath: //td[(text() = 'Law1' or . = 'Law1')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

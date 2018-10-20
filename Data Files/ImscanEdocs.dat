@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>ImscanEdocs</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>3c4f594f-f51f-4bd2-bed4-ab0c734c9ce6</dataFileGUID>
+   <dataSourceUrl>jdbc:sqlserver://RSSPL02;databaseName=ImscanEdocs</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>cGFzc3dvcmQ=</password>
+   <query>select * from [dbo].[User] where UserName like '%Dixita%'</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>ImscanEdocs</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

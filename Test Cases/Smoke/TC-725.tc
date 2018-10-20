@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>the System administrator can log into the application using pre-defined customized credentials</description>
+   <name>TC-725</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb53b126-c9e7-44a1-8616-bd11e10769ca</testCaseGuid>
+</TestCaseEntity>
